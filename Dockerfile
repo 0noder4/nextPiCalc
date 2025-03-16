@@ -10,7 +10,7 @@ FROM base AS production
 WORKDIR /app
 RUN npm ci
 COPY . .
-RUN npm run build
+RUN npm run build && npm run build:workers
 CMD npm run start
 
 FROM base AS development

@@ -1,0 +1,8 @@
+// Variable pass
+@forward "./defs/colors.scss";
+@forward "./defs/spacing.scss";
+@forward "./defs/typography.scss";
+
+// Modules pass
+@forward "./modules/typography.scss";
+@forward "./modules/for-size.scss";

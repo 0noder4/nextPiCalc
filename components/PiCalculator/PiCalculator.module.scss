@@ -1,0 +1,74 @@
+@use "@/styles/scss" as *;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: $pi-spacing--m;
+
+  padding: $pi-spacing--m;
+
+  max-width: 600px;
+}
+
+.description {
+  @include pi-text--paragraph;
+}
+
+.form {
+  @include pi-text--content;
+  display: flex;
+  justify-content: space-between;
+  gap: $pi-spacing--s;
+
+  input {
+    flex: 1;
+    min-height: 2rem;
+    padding-left: $pi-spacing--xs;
+
+    background-color: transparent;
+
+    border: 1px solid $pi-color--light;
+  }
+
+  button {
+    min-height: 2rem;
+    padding: 0 $pi-spacing--s;
+
+    background-color: $pi-color--light;
+
+    color: $pi-color--dark;
+    font-weight: bold;
+  }
+
+  @include for-size(phone-sm) {
+    flex-direction: column;
+  }
+}
+
+.title {
+  @include pi-text--title;
+}
+
+.result {
+  @include pi-text--content;
+
+  display: flex;
+  align-items: center;
+  gap: $pi-spacing--xs;
+}
+
+.copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: min-content;
+
+  svg {
+    height: $pi-font-size--m;
+    width: auto;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}

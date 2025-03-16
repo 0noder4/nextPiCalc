@@ -1,0 +1,17 @@
+@use "../defs/typography.scss" as *;
+
+@mixin pi-text--content {
+  font-family: $pi-font-family--content;
+  font-size: $pi-font-size--m;
+}
+
+@mixin pi-text--title {
+  font-family: $pi-font-family--title;
+  font-size: $pi-font-size--l;
+}
+
+@mixin pi-text--paragraph {
+  @include pi-text--content;
+
+  text-align: justify;
+}

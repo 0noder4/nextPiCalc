@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+button {
+  box-shadow: none;
+  background-color: inherit;
+  border: none;
+
+  font-family: inherit;
+  color: inherit;
+}
+
+input {
+  box-shadow: none;
+  border: none;
+
+  font-family: inherit;
+  color: inherit;
+}
+
+a {
+  color: inherit;
+}

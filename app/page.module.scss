@@ -1,0 +1,12 @@
+@use "@/styles/scss" as *;
+
+.container {
+  height: 100vh;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background-color: $pi-color--black;
+  color: $pi-color--light;
+}

@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Quicksand-Regular";
+  src: url(/fonts/quicksand/Quicksand-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Quicksand-Light";
+  src: url(/fonts/quicksand/Quicksand-Light.ttf);
+}
+
+// Font family allocation
+
+$pi-font-family--content: "Quicksand-Light";
+$pi-font-family--title: "Quicksand-Regular";
+
+// Font sizes
+
+$pi-font-size--m: 1rem;
+$pi-font-size--l: 2rem;
