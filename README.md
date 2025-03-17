@@ -31,3 +31,12 @@ To run Next Pi Calculator simply build and run the container
 ```sh
 docker compose up -d --build
 ```
+
+#### Production
+
+When running production build make sure to build workers
+
+```sh
+npm install
+npm run build:workers
+```
